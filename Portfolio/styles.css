@@ -1,0 +1,268 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+.page1{
+    width: 100%;
+    height: 100%;
+    /* background-color: blue; */
+    background-color: white;
+}
+.navbar{
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    color: white;
+    background-color: rgb(1, 1, 90);
+}
+.heading{
+    width: 40%;
+    height: 10vh;
+    display: flex;
+    align-items: center;
+    margin-left: 60px;
+}
+.menu{
+    width: 60%;
+    height: 10vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.p{
+    font-size: 18px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+}
+.check{
+    text-decoration: none;
+    border-radius: 20px;
+    padding: 15px 20px;
+    background-color: rgb(255, 179, 0);
+    color: white;
+    font-size: 20px;
+}
+.section1{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    /* background-color: rgb(0, 0, 75); */
+}
+.leftside{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box_1{
+    width: 80%;
+}
+.box_1 h1{
+    color: black;
+    font-size: 60px;
+    font-weight: 1000;
+}
+span{
+    color: rgb(255, 179, 0);
+    font-weight: 600;
+}
+.box_1 p{
+    color: white;
+    font-size: 20px;
+    color: black;
+    
+}
+.box_1 a{
+    margin-top: 20px;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+}
+.btns{
+    margin-top: 10px;
+    margin-left: -40px;
+}
+.btn1{
+    background-color: rgb(255, 179, 0);
+    color: white;
+}
+.btn2{
+    margin-left: 10px;
+    background-color: transparent;
+    border: 2px solid rgb(255, 179, 0);
+    color: rgb(255, 179, 0);
+}
+.rightside{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.rightside img{
+    width: 56%;
+}
+.page2{
+    width: 100%;
+    height: 100vh;
+    /* background-color: green; */
+}
+.about_section{
+    width: 100%;
+    height: 10vh;
+}
+.about{
+    background-color: rgb(1, 1, 90);
+    color: rgb(255, 179, 0);
+    width: 100%;
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.about h1{
+    font-size: 50px;
+    color: rgb(255, 179, 0);
+}
+.text_section{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-size: 30px;
+    line-height: 50px;
+    padding: 30px;
+}
+.page3{
+    width: 100%;
+    height: 100vh;
+}
+.skill{
+    width: 100%;
+    height: 10vh;
+    background-color:rgb(1, 1, 90) ;
+    color: rgb(255, 179, 0);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.skill h1{
+    font-size: 50px;
+}
+.skill_box{
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.box1{
+    width: 25%;
+    height: 20vh;
+    box-shadow: 5px 10px 10px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 90);
+    color: rgb(255, 179, 0);
+
+}
+.box2{
+    width: 25%;
+    height: 20vh;
+    box-shadow: 5px 10px 10px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 90);
+    color: rgb(255, 179, 0);
+
+}
+.box3{
+    width: 25%;
+    height: 20vh;
+    box-shadow: 5px 10px 10px 5px black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(1, 1, 90);
+    color: rgb(255, 179, 0);
+}
+.page4{
+    width: 100%;
+    height: 100vh;
+}
+.resume{
+    width: 100%;
+    height: 20vh;
+    background-color:rgb(1, 1, 90) ;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.resume h1{
+    font-size: 50px;
+    background-color:rgb(1, 1, 90) ;
+    color: rgb(255, 179, 0);
+}
+.resume a{
+    text-decoration: none;
+    background-color: rgb(255, 179, 0);
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+.contact_details{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.form{
+    display: flex;
+    flex-direction: column;
+}
+.form input{
+    width: 400px;
+    height: 50px;
+    margin-bottom: 20px;
+}
+.submit{
+    background-color: rgb(255, 179, 0);
+    color: rgb(1, 1, 90);
+    font-size: 20px;
+}
+.footer{
+    width: 100%;
+    height:20vh;
+    background-color:rgb(1, 1, 90) ;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: rgb(255, 179, 0);
+}
+.social img{
+    width: 50px;
+}
