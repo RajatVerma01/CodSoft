@@ -1,0 +1,128 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.main{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    background: linear-gradient(to top,orange,rgb(241, 231, 212));
+}
+.rightside{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.leftside{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.box{
+    width: 70%;
+    height: 30vh;
+}
+.box h1{
+    font-size: 130px;
+    color: orange;
+    font-family: cursive;
+    font-weight: 100;
+}
+.calcbox{
+    width: 50%;
+    height: 70%;
+    border-radius: 20px;
+    background: linear-gradient(to top,rgba(0,0,0,1),rgba(0,0,0,0.1));
+    box-shadow: 10px 20px 30px white;
+}
+.display{
+    width: 100%;
+    height: 20%;
+}
+.display input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color:rgba(0,0,0,0.1) ;
+    color: white;
+    border-radius: 20px;
+    font-size: 50px;
+}
+.container{
+    width: 100%;
+    height: 80%;
+}
+.row1 {
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row1 button{
+    padding: 16px 34px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.row2{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row2 button{
+    padding: 16px 37px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.row3{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row3 button{
+    padding: 16px 37px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.row4{
+    width: 100%;
+    height: 25%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.row4 button{
+    padding: 16px 37px;
+    border-radius: 30px;
+    font-size: 30px;
+}
+.allclear{
+    background-color:orange;
+}
+.clear{
+    background-color: orange;
+}
+.divide{
+    background-color: orange;
+}
+.add{
+    background-color: orange;
+}
+.subtract{
+    background-color: orange;
+}
+.multiply{
+    background-color: orange;
+}
+.equal{
+    background-color: orange;
+}
